@@ -1,4 +1,50 @@
-.photo-cover{
-    background: url(https://static.pexels.com/photos/36487/above-adventure-aerial-air-large.jpg)  center center/cover fixed;
-    height: 100%;
+body {
+  background : linear-gradient(132deg, rgb(83, 92, 223), #0e8bf8, #2de1ee, #8a3bf1, #f06a1d); 
+  background-size : 400% 400%;
+   animation : Gradient 30s ease infinite; 
+}
+/* Gradiente*/
+@keyframes Gradient {
+0% {
+     background-position: 0% 50%
+   }
+50% { 
+     background-position: 100% 50%
+   }
+100% {
+  background-position: 0% 50%
   }
+}
+
+/* Movimiento */
+
+@-webkit-keyframes scrollBad {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 -320px;
+  }
+}
+@keyframes scrollBad {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 -320px;
+  }
+}
+
+.movimientobg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 3rem;
+  height: 25%;
+  background-image: url("../img/bg.svg");
+  background-position: center center;
+  background-size: 500px;
+  -webkit-animation: scrollBad 10s linear infinite;
+  animation: scrollBad 10s linear infinite;
+}
+
