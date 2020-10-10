@@ -1,8 +1,3 @@
-body {
-  background : linear-gradient(132deg, rgb(83, 92, 223), #0e8bf8, #2de1ee, #8a3bf1, #f06a1d); 
-  background-size : 400% 400%;
-   animation : Gradient 30s ease infinite; 
-}
 /* Gradiente*/
 @keyframes Gradient {
 0% {
@@ -44,7 +39,7 @@ body {
   background-image: url("../img/bg.svg");
   background-position: center center;
   background-size: 500px;
-  -webkit-animation: scrollBad 10s linear infinite;
-  animation: scrollBad 10s linear infinite;
+  -webkit-animation: scrollBad 30s linear infinite;
+  animation: scrollBad 20s linear infinite;
 }
 
